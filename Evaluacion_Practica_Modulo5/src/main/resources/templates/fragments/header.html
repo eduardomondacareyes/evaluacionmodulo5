@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<link href="/css/bootstrap.css" rel="stylesheet" th:href="@{/css/bootstrap.css}"/>
+</head>
+<body>
+	<div class="container" th:fragment="header">
+		<div class="container-fluid" style="background-color:steelblue;color:#fff;height:100%;">
+			<h3> Menu Consulta Alumnos </h3>
+
+		</div>
+		
+		
+		<nav class= "navbar navbar-default">
+			<div class= "container-fluid">
+				<div class= "navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#">Menu</a>
+						
+				</div>
+	
+	<div class="collapse navbar-collapse" id="myNavbar">
+		<ul class="nav navbar-nav">
+			<li><a href="/">Inicio</a></li>
+			<li><a href="/agregar_page">Agregar</a></li>
+			<li><a href="/consultar_page">Consultar</a></li> 
+			<li><a href="/eliminar_page">Eliminar</a></li>
+		</ul>
+			</div>
+		</div>
+	</nav>
+	
+	</div>
+	<script src="/js/jquery-3.5.1.js" th:href="@{/js/jquery-3.5.1.js)}"></script>
+	<script src="/js/bootstrap.js" th:href="@{/js/bootstrap.js)}"></script>
+	
+	
+	
+
+</body>
+</html> 
